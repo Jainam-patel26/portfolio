@@ -1,4 +1,4 @@
-/*Custom Fonst*/
+/*Custom Font*/
 @font-face {
   font-family: Roboto ;
   src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
@@ -24,6 +24,19 @@
   mix-blend-mode: difference;
   pointer-events: none;
   z-index: 9999;
+}
+
+@media screen and (max-width: 990px) {
+  .custom-cursor {
+    display: none;
+  }
+  .contact-image{
+    width: 500px !important;
+  }
+  nav.navbar {
+    padding: 0px 0;
+    background-color: #121212;
+  }
 }
 
 /* default CSS*/

@@ -5,6 +5,7 @@ import { Row, Col } from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
 import {useRef} from "react";
 import emailjs from '@emailjs/browser';
+import '../App.css';
 
 export const Contact = () => {
     const form = useRef();
@@ -22,7 +23,7 @@ export const Contact = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col md={6}>
-                        <img src = {contactImg} alt="Contact Us" />
+                        <img className="contact-image" src = {contactImg} alt="Contact Us" />
                     </Col>
                     <Col md={6}>
                         <div classsName="container-contact ">
